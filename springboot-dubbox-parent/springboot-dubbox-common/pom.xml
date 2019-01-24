@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.wangxuegang</groupId>
+    <artifactId>springboot-dubbox-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>springboot-dubbox-common</artifactId>
+  <packaging>pom</packaging>
+  <name>SpringBoot Common</name>
+  <description>公用模块</description>
+  
+  
+  <modules>
+  	<module>springboot-dubbox-common-utils</module>
+  	<module>springboot-dubbox-common-upload</module>
+  	<module>springboot-dubbox-common-redis</module>
+  	<module>springboot-dubbox-common-service</module>
+  	<module>springboot-dubbox-common-api</module>
+  	<module>springboot-dubbox-common-web</module>
+  </modules>
+</project>
